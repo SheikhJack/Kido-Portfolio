@@ -9,6 +9,8 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
+import { Facebook } from "lucide-react";
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -125,7 +127,7 @@ export default function Page() {
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
                   websites to complex web applications. Here are a few of my
-                  favorites.
+                  favorites.You can look into my github repository for all of my work. 
                 </p>
               </div>
             </div>
@@ -152,13 +154,13 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="hackathons">
+      {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  UpComing
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   I like building things
@@ -194,7 +196,7 @@ export default function Page() {
             </ul>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -206,13 +208,13 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
-                <Link
-                  href={DATA.contact.social.LinkedIn.url}
+                Want to chat? Just shoot me an app{" "}
+                  <span
                   className="text-blue-500 hover:underline"
-                >
-                  with a direct question on LinkedIn
-                </Link>{" "}
+                  >
+                    tel:+26774524437
+                    email: kealebogakido@gmail.com
+                  </span> 
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
               </p>

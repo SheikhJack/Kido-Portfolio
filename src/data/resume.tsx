@@ -5,12 +5,12 @@ export const DATA = {
   name: "Kealeboga Mosate",
   initials: "KM",
   url: "https://github.com/SheikhJack?tab=repositories",
-  location: "San Francisco, CA",
+  location: "Botswana, Gaborone",
   locationLink: "H5Q2+PCG Kgafela Primary School, Mochudi",
   description:
     "A FullStack developer. I love building things and helping people.",
   summary:
-  "My journey into web development began in 2019 when I started building web apps with Shopify. Since then, I've expanded my skill set and transitioned to React.js in 2020. Eager to enhance my capabilities, I pursued a full-stack web development course at the University of Helsinki in 2022. This comprehensive program covered both frontend and backend development using React.js, Node.js, and PHP Laravel.",
+  "My journey into web development began in 2019 when I started building web apps with Shopify. Since then, I've expanded my skill set and transitioned to React.js in 2020. Eager to enhance my capabilities, I pursued a full-stack web development course at the University of Helsinki in 2022. This comprehensive program covered both frontend and backend development using React.js, Node.js, and python(flask).",
   avatarUrl: "/my.png",
   skills: [
     "React",
@@ -18,7 +18,9 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "Python",
+    "flask",
     "React-Native",
+    "Mysql",
     "Postgres",
     "Firebase",
     "MongoDb",
@@ -54,10 +56,10 @@ export const DATA = {
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://",
-        icon: Icons.youtube,
+      Facebook: {
+        name: "Facebook",
+        url: "https://web.facebook.com/kealeboga.mosate/",
+        icon: Icons.facebook,
         navbar: true,
       },
       email: {
@@ -118,7 +120,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Leaveraging the power of Nextjs 14, Tax-prep-app allows users/customers to engage by posting inside the app when they fell like they need clarity. commenting is also enabled giving the app the power certisfy users without needing facebook or any other social media platform",
       technologies: [
         "Next.js",
         "Javascript",
@@ -128,8 +130,13 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://tax-prepare-app.vercel.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/SheikhJack/tax-prep-app-2",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/tax-prep.png",
@@ -142,26 +149,21 @@ export const DATA = {
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Designed, developed with purely reactjs with a plan to make the website dynamic when the client is ready .",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "React.js",
+        "Javascript",
+        "Google Maps",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://symphonious-malasada-04da2f.netlify.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/SheikhJack/luapituition",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -174,16 +176,10 @@ export const DATA = {
       dates: "April 2021 - -",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed to give Moscorp Media clients a rich option to technologies and user experience to assure them of the quality they can get from the firm .",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
+        "React.Js",
+        "Javascript",
         "Cloudflare Workers",
       ],
       links: [
@@ -194,7 +190,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -225,7 +221,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/store.png",
+      image: "/stores.png",
       video:
         "",
     },
@@ -254,7 +250,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "bhc.mp4",
     },
     {
       title: "Ecommerce Admin Dash",
