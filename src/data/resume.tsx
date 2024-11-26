@@ -93,6 +93,7 @@ export const DATA = {
       degree: "Information Technology Diploma",
       logoUrl: "/Alison.svg",
       start: "On-going",
+      end: "----",
     },
     {
       school: "University Of Helsinki",
