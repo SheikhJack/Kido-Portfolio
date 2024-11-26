@@ -88,12 +88,11 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Botswana Open University",
+      school: "Alison",
       href: "https://buildspace.so",
-      degree: "Barchelor of Technology, Information systems",
-      logoUrl: "/download.webp",
-      start: "2024",
-      end: "2028",
+      degree: "Information Technology Diploma",
+      logoUrl: "/Alison.svg",
+      start: "On-going",
     },
     {
       school: "University Of Helsinki",
@@ -272,7 +271,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://onewayclothingadmin.com",
+          href: "https://github.com/SheikhJack/e-commerce-store",
           icon: <Icons.globe className="size-3" />,
         },
       ],
