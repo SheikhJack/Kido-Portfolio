@@ -212,8 +212,8 @@ export default function Page() {
                   <span
                   className="text-blue-500 hover:underline"
                   >
-                    tel:+26774524437
-                    email: kealebogakido@gmail.com
+                    Tel:+26774524437
+                    Email: kealebogakido@gmail.com
                   </span> 
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
