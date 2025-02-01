@@ -20,10 +20,14 @@ export const DATA = {
     "Python",
     "flask",
     "React-Native",
+    "Flutter",
     "Mysql",
     "Postgres",
     "Firebase",
     "MongoDb",
+    "HTML",
+    "CSS",
+    "Javascript",
     "Supabase",
     "aws",
   ],
@@ -109,7 +113,7 @@ export const DATA = {
       degree: "React Native Course",
       logoUrl: "/download(2).webp",
       start: "2024",
-      end: "2028",
+      end: "2024",
     },
   
   ],
@@ -277,6 +281,64 @@ export const DATA = {
         },
       ],
       image: "/admin-dash.png",
+      video:
+        "",
+    },
+    {
+      title: "Peepa CGAPMIS",
+      href: "https://automatic.chat",
+      dates: "Aug 2024 - Oct 2024",
+      active: true,
+      description:
+        "Hackathon to automate Peepa parastatal workflows",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "MySQL",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "cgapmis-iota.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/SheikhJack/CGAPMIS",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/cgapmis.png",
+      video:
+        "",
+    },
+    {
+      title: "InsectFactory",
+      href: "https://insectfactory-bw.com",
+      dates: "jan 2025",
+      active: true,
+      description:
+        "Website made out of html,css,javascript for a client",
+      technologies: [
+        "Html",
+        "Javascript",
+        "Css",
+        "Cpanel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://insectfactory-bw.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/SheikhJack/e-commerce-store",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/insectfactory.png",
       video:
         "",
     },
