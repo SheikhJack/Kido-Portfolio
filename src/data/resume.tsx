@@ -300,7 +300,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "cgapmis-iota.vercel.app",
+          href: "https://cgapmis-iota.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
