@@ -115,6 +115,14 @@ export const DATA = {
       start: "2024",
       end: "2024",
     },
+    {
+      school: "Harvad's CS50x program",
+      href: "https://udemy.com",
+      degree: "Computer Science Cert&Ai",
+      logoUrl: "/harvard.png",
+      start: "oct-2024",
+      end: "ongoing",
+    },
   
   ],
   projects: [
@@ -189,12 +197,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "moscorp-media-inc.vercel.app",
+          href: "https://moscorp-media-inc-self.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/",
+          href: "https://github.com/SheikhJack/Moscorp-Media-Inc",
           icon: <Icons.github className="size-3" />,
         },
       ],
